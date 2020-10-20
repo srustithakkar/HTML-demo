@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 20px ;
+    font-weight: 700;
+}
+.container a img{
+    margin-top: 16px ;
+    vertical-align: middle;
+    height: 22px;
+    width: auto;
+    display: inline-block;
+}
+.container ul{
+    list-style-type: none;
+    width: 28vw;
+    display: flex;
+    padding-left: 40px;
+    /* margin: 10px ; */
+    align-items: center;
+    justify-content: space-around;
+}
+.container ul li{
+    padding;
+    justify-content: space-between;
+}
+main .container{
+    background: url('https://cdn.fs.agorize.com/9ERJClgYRU2RDsJWFeyD') no-repeat center center ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover !important;
+    z-index: 0;
+}
+
+.link a i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 270px;
+    margin-bottom: 30px;
+    color: white;
+
+}
